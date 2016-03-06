@@ -1,4 +1,5 @@
-*-----------------------------------------------*
+//-----------------------------------------------//
+
 This is an untested archieved code that is related to parts of my work on 
 GPU accelerated Genetic Algorithms. 
 
@@ -10,8 +11,10 @@ with Conference on Parallel Architectures and Compilation Techniques
 
 Over the last few months I have received multiple requests for the code but I 
 could not find the final working copy of the code that I had used for the paper. 
-I am publishing an older version of the code that I could fine AS IS, UNTESTED 
-and WITHOUT ANY WARRANTY. If you find the code useful, please cite our paper. 
+I am publishing an older version of the code that I could find "AS IS, UNTESTED 
+and WITHOUT WARRANTY". 
+
+If you find the code useful, please cite our paper. 
 
 @INPROCEEDINGS{,
 	AUTHOR       = "Rajvi Shah, P J Narayanan, Kishore Kothapalli",
@@ -22,15 +25,15 @@ and WITHOUT ANY WARRANTY. If you find the code useful, please cite our paper.
 }
 
 The code was tested on old Tesla GPUs many years ago and haven't been 
-tested/used since. Please understand that I will not be able to provide 
-much help. 
+tested/used since. Please understand that I will not be able to provide help and support. 
 
 I would be glad if anyone wants to extend this code. 
 
 Rajvi Shah
+
 rajvi.shah@research.iiit.ac.in
-rajvi.a.shah@gmail.com
-*-----------------------------------------------*
+
+//-----------------------------------------------//
 
 
 The following files compose the essentials of a simple genetic algorithms
