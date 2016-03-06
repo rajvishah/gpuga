@@ -1,3 +1,38 @@
+*-----------------------------------------------*
+This is an untested archieved code that is related to parts of my work on 
+GPU accelerated Genetic Algorithms. 
+
+Rajvi Shah, P J Narayanan, Kishore Kothapalli, 
+"GPU-accelerated Genetic Algorithms", 
+Workshop on Parallel Architectures for Bio-inspired Algorithms, in conjunction 
+with Conference on Parallel Architectures and Compilation Techniques 
+(PACT Workshop), 2010, Vienna, Austria. 
+
+Over the last few months I have received multiple requests for the code but I 
+could not find the final working copy of the code that I had used for the paper. 
+I am publishing an older version of the code that I could fine AS IS, UNTESTED 
+and WITHOUT ANY WARRANTY. If you find the code useful, please cite our paper. 
+
+@INPROCEEDINGS{,
+	AUTHOR       = "Rajvi Shah, P J Narayanan, Kishore Kothapalli",
+	TITLE        = "GPU-Accelerated Genetic Algorithms",
+	BOOKTITLE    = "Workshop on Parallel Architectures for Bio-ispired Algorithms in conunction with Parallel Architectures and Compilation Techniques (PACT Workshop)",
+	YEAR         = "2010",
+	PAGES        = "27--34",
+}
+
+The code was tested on old Tesla GPUs many years ago and haven't been 
+tested/used since. Please understand that I will not be able to provide 
+much help. 
+
+I would be glad if anyone wants to extend this code. 
+
+Rajvi Shah
+rajvi.shah@research.iiit.ac.in
+rajvi.a.shah@gmail.com
+*-----------------------------------------------*
+
+
 The following files compose the essentials of a simple genetic algorithms
 
 1. ga_defs.h 		: includes all typedefs, structures and enum definitions
@@ -28,5 +63,3 @@ Notes: Let user provide his own function for fitness evaluation which makes use 
 Compilation : nvcc ex1.cu,nvcc ex2.cu,nvcc ex3.cu,
 
 
-For more details:
-Contact: rajvi.shah@research.iiit.ac.in
